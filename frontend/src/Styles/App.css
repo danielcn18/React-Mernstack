@@ -1,4 +1,24 @@
-.wrapper {
-  max-width: 700px;
-  margin: 0 auto;
+body{
+  margin: 0;
 }
+/*
+.nav{
+  height: auto;
+  width: 90%;
+  padding: 2vh 5% 0 5%;
+  border: 1px solid black;
+}
+.nav>ul{
+  display: flex;
+  height: auto;
+  width: auto;
+  flex-direction: column;
+}
+.nav>ul>li{
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 0 5px 0 5px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+} */

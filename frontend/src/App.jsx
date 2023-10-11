@@ -1,11 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import CreateStudent from './components/CreateStudent.js'
-import EditStudent from './components/EditStudent.js'
-import StudentList from './components/StudentList.js'
-import {Routes, Route, Link} from 'react-router-dom'
-import './App.css'
+import { useState } from 'react';
+import CreateStudent from './Components/CreateStudent';
+import EditStudent from './Components/EditStudent';
+import StudentList from './Components/StudentList';
+import {Routes, Route, Link} from 'react-router-dom';
+import './Styles/App.css';
 
 function App() {
   return (
@@ -19,7 +17,7 @@ function App() {
 
       <div className="content">
         <Routes>
-        <Route path='/create-student' element={<CreateStudent />} />
+          <Route path='/create-student' element={<CreateStudent />} />
           <Route path='/edit-student/:id' element={<EditStudent />} />
           <Route path='/student-list' element={<StudentList />} />
         </Routes>
@@ -28,4 +26,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

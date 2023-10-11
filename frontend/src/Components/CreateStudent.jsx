@@ -12,8 +12,8 @@ function CreateStudent() {
         setUserForm((prevNext) => ({
             ...prevNext,
             [e.target.name]: e.target.value,
-        }))
-    }
+        }));
+    };
 
     const onSubmit = (e) => {
         e.preventDefault();
